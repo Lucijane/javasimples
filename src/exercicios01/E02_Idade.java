@@ -19,19 +19,13 @@ public class E02_Idade {
 		System.out.println("A soma em anos é: "+idade);
 		System.out.println("A soma em meses é: "+idade*12);
 		System.out.println("A soma em dias é: "+(idade*365+(idade/4)));
-		// api de datas = LocalDate
+		//api de datas = LocalDate
 		LocalDate aniversario = LocalDate.of(idade, anoNascimento, anoAtual);
 		 
 		System.out.println(aniversario.until(LocalDate.now(),ChronoUnit.YEARS));
 		System.out.println(aniversario.until(LocalDate.now(),ChronoUnit.MONTHS));
 		System.out.println(aniversario.until(LocalDate.now(),ChronoUnit.DAYS));
 		
-		
-		
-		
-		
-		
-
+		leitor.close();
 	}
-
 }
