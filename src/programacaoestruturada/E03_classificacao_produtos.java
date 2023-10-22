@@ -21,7 +21,7 @@ public class E03_classificacao_produtos {
 		
 		}
 		
-		
+		sc.close();
 	}
 
 }
