@@ -1,0 +1,10 @@
+package algoritimos.io;
+
+public class A01_ComandosDeEntrada {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

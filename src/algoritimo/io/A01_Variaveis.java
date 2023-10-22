@@ -1,0 +1,28 @@
+package algoritimo.io;
+
+public class A01_Variaveis{
+	public static void main(String[] args) { // IDICAR QUAL CLASE EXECULTA IRÁ EXECUTAR O MEU PROJETO. VAI EXECULTAR MEU PROJETO
+		//CONSTANTES  com nome MAISCULO
+		final String NAME = "Lucijane";
+		
+		
+		//VARIAVEIS
+		String name = "Lucijane";
+		int idade = 25;
+		float altura = 1.57f;
+		double peso = 56;
+		boolean eDoadorDeSangue = true;
+		char tipoSanguineo = 'A';
+		char fatorRh = '+';
+		
+		
+	
+		//System.out.println("Meu nome é "+ name+ ", tenho " + idade + " anos " + " peso " + peso +"kg"+ " do tipo sanguineo " + tipoSanguineo + " dO falor R " + fatorRh);
+	    
+		
+		System.out.printf("nome: %s\n idade: %d\n", name, idade);
+		System.out.printf("altura: %f\n peso: %.2f\n", altura, peso);
+		System.out.printf("eDoadorDeSangue: %b\n fatorRh: %c\n", eDoadorDeSangue,fatorRh);
+	}	
+	
+}

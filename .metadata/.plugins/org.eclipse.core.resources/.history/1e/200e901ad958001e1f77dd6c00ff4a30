@@ -1,0 +1,18 @@
+package algoritimos.io;
+
+public class A01_Variaveis{
+	public static void main(String[] args) {
+		
+		String name = "Lucijane";
+		int idade = 25;
+		float altura = 1.57f;
+		double peso = 56;
+		boolean eDoadorDeSangue = true;
+		char tipoSanguineo = 'A';
+		char fatorrH = '+';
+	
+		System.out.println("Meu nome é "+ name+ ", tenho " + idade + " anos " + " peso " + peso +"kg"+ " do tipo sanguineo " + tipoSanguineo + " dO falor R " + fatorrH);
+	
+	}	
+	
+}
